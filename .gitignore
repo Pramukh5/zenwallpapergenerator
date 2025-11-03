@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model files (large files)
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.h5
+*.pb
+
+# Keep specific model outputs but ignore checkpoint directories
+models/checkpoints/
+models/temp/
+*.tmp
+
+# Dataset - ignore raw and processed images
+dataset/raw/*.jpg
+dataset/raw/*.jpeg
+dataset/raw/*.png
+dataset/raw/*.gif
+dataset/raw/*.webp
+dataset/processed/*.jpg
+dataset/processed/*.jpeg
+dataset/processed/*.png
+dataset/processed/*.gif
+dataset/processed/*.webp
+dataset/dataset/
+
+# Outputs - ignore generated images
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.png
+outputs/*.gif
+outputs/*.webp
+outputs/generated_samples/*.jpg
+outputs/generated_samples/*.jpeg
+outputs/generated_samples/*.png
+outputs/generated_samples/*.gif
+outputs/generated_samples/*.webp
+
+# Logs and temporary files
+*.log
+logs/
+wandb/
+.wandb/
+tensorboard/
+runs/
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# Cache
+.cache/
+*.cache
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Gradio cache
+gradio_cached_examples/
+flagged/
